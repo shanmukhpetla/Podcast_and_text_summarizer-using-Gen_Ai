@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+openai
+pydantic
+google-api-python-client
+openai-whisper
+python-dotenv
