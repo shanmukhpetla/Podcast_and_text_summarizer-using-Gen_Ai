@@ -34,6 +34,23 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
+### 4️⃣ Set up environment variables
+Create a `.env` file in the project root and add:
+```ini
+OPENAI_API_KEY=your-openai-api-key
+PERSPECTIVE_API_KEY=your-google-perspective-api-key
+```
+
+Load these variables in your FastAPI app using:
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+PERSPECTIVE_API_KEY = os.getenv("PERSPECTIVE_API_KEY")
+```
+
 ## 🚀 Usage
 ### 1️⃣ Run the FastAPI server
 ```sh
@@ -65,4 +82,5 @@ Pull requests are welcome! Feel free to submit an issue or feature request.
 
 ---
 👨‍💻 Created by **Shanmukh** 🚀
+
 
