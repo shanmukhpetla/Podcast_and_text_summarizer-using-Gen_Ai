@@ -4,13 +4,10 @@
 This project is an AI-powered **text and podcast summarizer** that automatically generates short, insightful summaries from long-form content. It supports:
 - 🎙️ **Podcast & Audio Summarization** (via OpenAI Whisper API)
 - 📄 **Text Summarization** (via OpenAI LLM)
-- 🎞️ **Video-to-Short Clips** (Auto-generates highlight reels)
 - 📝 **Content Moderation** (via Google Perspective API)
 
 ## ⚡ Features
 - 🎯 Extract key insights from **long audio, video, and text**
-- ✂️ Automatically generate **5 short clips** from videos
-- 🖼️ Generate **custom thumbnails** for social media
 - 🔄 REST API with **FastAPI backend**
 - 🚀 CLI tool for easy access
 - ☁️ **Deployable on Heroku**
